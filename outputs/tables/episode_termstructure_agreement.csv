@@ -1,0 +1,7 @@
+peak,event,classification,frac_of_max,min_slope_3m_1m,pct_days_backwardated,peak_vix,agrees
+2008-12-11,Lehman,correlation-driven,0.899,0.699,53.9,80.9,True
+2011-11-01,US downgrade / EU crisis,correlation-driven,0.686,0.921,48.1,45.5,True
+2020-05-20,COVID crash,correlation-driven,0.725,0.758,41.0,82.7,True
+2022-07-19,CPI shock / hiking cycle,mixed,0.252,1.006,0.0,34.0,
+2022-11-16,,dispersion-driven,0.133,1.079,0.0,24.5,True
+2025-05-28,Tariff shock,correlation-driven,0.817,0.877,16.7,40.7,True

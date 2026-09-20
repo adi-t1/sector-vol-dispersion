@@ -1,0 +1,9 @@
+# Pinned to the versions this study was run and verified on (2026-09).
+# Looser bounds will very likely work; these are what produced the numbers
+# in README.md.
+numpy>=2.0,<3
+pandas>=2.2,<3
+scipy>=1.13
+matplotlib>=3.8
+yfinance>=0.2.60
+requests>=2.31
