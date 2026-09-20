@@ -1,0 +1,242 @@
+{
+  "term_structure_diagnostics": {
+    "splice_overlap_days": 4273,
+    "splice_mean_abs_diff": 0.0,
+    "splice_max_abs_diff": 0.0,
+    "splice_corr": 1.0,
+    "vix3m_start_spliced": "2007-12-04",
+    "vix3m_start_cboe_only": "2009-09-18",
+    "vix_crosscheck_days": 9273,
+    "vix_crosscheck_mean_abs_diff": 0.0
+  },
+  "dropped_constituents": [],
+  "sample": {
+    "start": "1999-01-04",
+    "end": "2026-09-15",
+    "n_days": 6967,
+    "n_constituents": 116
+  },
+  "weights": {
+    "median_r2": 0.9949999557058257,
+    "min_r2": 0.8520371466883048,
+    "latest": {
+      "XLK": 0.3415985623000385,
+      "XLC": 0.1582100444899523,
+      "XLY": 0.11875669505600037,
+      "XLF": 0.1159869205177263,
+      "XLV": 0.07948184053322957,
+      "XLI": 0.06862943168276912,
+      "XLP": 0.048601071738698196,
+      "XLU": 0.03950219945919906,
+      "XLE": 0.029233234222386672
+    }
+  },
+  "index": {
+    "rho_mean": 0.6028750139535484,
+    "rho_median": 0.6370959412876623,
+    "rho_min": 0.029798474272451168,
+    "rho_max": 0.9710294704844535,
+    "own_share_mean": 0.27146793219377274,
+    "own_share_median": 0.22985890980257714,
+    "own_share_max": 0.9227885872516312,
+    "vol_mean": 0.16816888925613035,
+    "residual_rel_median": 0.025334702131725118,
+    "rho_vs_exact_median_gap": 0.019410927426284474,
+    "rho_absorption_corr": 0.9415684072160434
+  },
+  "episodes": {
+    "n_vol_episodes": 7,
+    "classification_counts": {
+      "correlation-driven": 4,
+      "mixed": 2,
+      "dispersion-driven": 1
+    },
+    "n_dispersion_episodes": 11,
+    "day_labels": {
+      "calm": 5159,
+      "correlation-driven": 1135,
+      "NaN": 251,
+      "dispersion-driven": 150
+    }
+  },
+  "sectors": [
+    {
+      "sector": "Energy",
+      "n_obs": 6904,
+      "n_names_min": 13,
+      "n_names_max": 17,
+      "rho_mean": 0.58539,
+      "rho_median": 0.58802,
+      "rho_std": 0.13488,
+      "rho_min": 0.2408,
+      "rho_max": 0.88122,
+      "own_share_mean": 0.12551,
+      "dispersion_mean": 0.21908,
+      "avg_name_vol_mean": 0.34539,
+      "portfolio_vol_mean": 0.27516,
+      "absorption_mean": 0.63043,
+      "identity_max_err": 0.0
+    },
+    {
+      "sector": "Financials",
+      "n_obs": 6904,
+      "n_names_min": 17,
+      "n_names_max": 19,
+      "rho_mean": 0.57254,
+      "rho_median": 0.5743,
+      "rho_std": 0.12909,
+      "rho_min": 0.24053,
+      "rho_max": 0.90011,
+      "own_share_mean": 0.09889,
+      "dispersion_mean": 0.2317,
+      "avg_name_vol_mean": 0.30847,
+      "portfolio_vol_mean": 0.24135,
+      "absorption_mean": 0.60654,
+      "identity_max_err": 0.0
+    },
+    {
+      "sector": "Industrials",
+      "n_obs": 6904,
+      "n_names_min": 19,
+      "n_names_max": 20,
+      "rho_mean": 0.46332,
+      "rho_median": 0.4771,
+      "rho_std": 0.14919,
+      "rho_min": 0.14236,
+      "rho_max": 0.85225,
+      "own_share_mean": 0.11777,
+      "dispersion_mean": 0.30639,
+      "avg_name_vol_mean": 0.27318,
+      "portfolio_vol_mean": 0.19199,
+      "absorption_mean": 0.50979,
+      "identity_max_err": 0.0
+    },
+    {
+      "sector": "Technology",
+      "n_obs": 6904,
+      "n_names_min": 17,
+      "n_names_max": 20,
+      "rho_mean": 0.44223,
+      "rho_median": 0.42581,
+      "rho_std": 0.13866,
+      "rho_min": 0.13897,
+      "rho_max": 0.83039,
+      "own_share_mean": 0.12919,
+      "dispersion_mean": 0.31824,
+      "avg_name_vol_mean": 0.39616,
+      "portfolio_vol_mean": 0.27681,
+      "absorption_mean": 0.49346,
+      "identity_max_err": 0.0
+    },
+    {
+      "sector": "Health Care",
+      "n_obs": 6904,
+      "n_names_min": 19,
+      "n_names_max": 20,
+      "rho_mean": 0.30906,
+      "rho_median": 0.2777,
+      "rho_std": 0.12568,
+      "rho_min": 0.10554,
+      "rho_max": 0.73514,
+      "own_share_mean": 0.18492,
+      "dispersion_mean": 0.41656,
+      "avg_name_vol_mean": 0.2933,
+      "portfolio_vol_mean": 0.17234,
+      "absorption_mean": 0.38347,
+      "identity_max_err": 0.0
+    },
+    {
+      "sector": "Consumer Staples",
+      "n_obs": 6904,
+      "n_names_min": 20,
+      "n_names_max": 20,
+      "rho_mean": 0.30877,
+      "rho_median": 0.29244,
+      "rho_std": 0.12024,
+      "rho_min": 0.07569,
+      "rho_max": 0.7,
+      "own_share_mean": 0.17677,
+      "dispersion_mean": 0.41888,
+      "avg_name_vol_mean": 0.23135,
+      "portfolio_vol_mean": 0.13553,
+      "absorption_mean": 0.38699,
+      "identity_max_err": 0.0
+    }
+  ],
+  "significance": {
+    "n_tests_index": 9,
+    "n_sig_naive": 6,
+    "n_sig_adjusted": 6,
+    "n_sig_bootstrap": 9,
+    "median_neff_shrinkage": 0.6895967299580257,
+    "ci_width_ratio_median": 0.6954702194204292,
+    "ci_width_ratio_min": 0.22094372483518088,
+    "ci_width_ratio_max": 1.8209322338148048
+  },
+  "term_structure_check": {
+    "n_corr_driven": 1135,
+    "n_disp_driven": 150,
+    "pct_backwardation_corr": 20.704845814977972,
+    "pct_backwardation_disp": 24.0,
+    "odds_ratio": 1.2094064949608063,
+    "fisher_p": 0.3400180713876168
+  },
+  "lead_lag": {
+    "contemporaneous": -0.32132441434465003,
+    "peak_lag_days": 20,
+    "peak_corr": -0.4092859387238525
+  },
+  "term_structure_partial": {
+    "n": 4724,
+    "raw_corr_slope_rho": -0.32132441434465003,
+    "partial_corr_given_logvix": -0.005679239581710054,
+    "t_stat": -0.3902241957007338,
+    "p_value": 0.6963883765129903,
+    "corr_rho_logvix": 0.43825759005069587
+  },
+  "episode_agreement_rate": 100.0,
+  "window_robustness": {
+    "corr_matrix": {
+      "rho_63": {
+        "rho_63": 1.0,
+        "rho_21": 0.806,
+        "rho_126": 0.8874
+      },
+      "rho_21": {
+        "rho_63": 0.806,
+        "rho_21": 1.0,
+        "rho_126": 0.7055
+      },
+      "rho_126": {
+        "rho_63": 0.8874,
+        "rho_21": 0.7055,
+        "rho_126": 1.0
+      }
+    },
+    "means": {
+      "rho_63": 0.6029,
+      "rho_21": 0.5817,
+      "rho_126": 0.6194
+    }
+  },
+  "key_periods": {
+    "COVID 2020-03..04": {
+      "vol_mean": 0.44962071479680576,
+      "rho_mean": 0.8693471286993972,
+      "own_share_mean": 0.14632057819680822,
+      "dispersion_mean": 0.058629795138095644
+    },
+    "Calm 2021": {
+      "vol_mean": 0.1264497601133365,
+      "rho_mean": 0.50626280910142,
+      "own_share_mean": 0.2700232934673203,
+      "dispersion_mean": 0.23639151604023184
+    },
+    "GFC 2008-09..2009-03": {
+      "vol_mean": 0.5310022832265618,
+      "rho_mean": 0.8187440995369768,
+      "own_share_mean": 0.20306206518086958,
+      "dispersion_mean": 0.08084680953754944
+    }
+  }
+}
