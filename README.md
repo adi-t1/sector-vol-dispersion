@@ -46,9 +46,9 @@ $$R_{\text{index}} = \sum_{i=1}^{N} w_i R_i$$
 
 Taking the variance of a weighted sum:
 
-$$\sigma_{\text{index}}^2 = \operatorname{Var}\left(\sum_i w_i R_i\right) = \sum_i \sum_j w_i w_j \operatorname{Cov}(R_i, R_j)$$
+$$\sigma_{\text{index}}^2 = \mathrm{Var}\left(\sum_i w_i R_i\right) = \sum_i \sum_j w_i w_j \mathrm{Cov}(R_i, R_j)$$
 
-Split the double sum into the diagonal ($i = j$) and the off-diagonal ($i \neq j$) terms. On the diagonal $\operatorname{Cov}(R_i,R_i) = \sigma_i^2$; off the diagonal $\operatorname{Cov}(R_i,R_j) = \rho_{ij}\sigma_i\sigma_j$:
+Split the double sum into the diagonal ($i = j$) and the off-diagonal ($i \neq j$) terms. On the diagonal $\mathrm{Cov}(R_i,R_i) = \sigma_i^2$; off the diagonal $\mathrm{Cov}(R_i,R_j) = \rho_{ij}\sigma_i\sigma_j$:
 
 $$\boxed{\;\sigma_{\text{index}}^2 = \underbrace{\sum_{i} w_i^2 \sigma_i^2}_{\text{own-variance ("idiosyncratic")}} \;+\; \underbrace{\sum_{i \neq j} w_i w_j \rho_{ij}\, \sigma_i \sigma_j}_{\text{cross-covariance ("systematic")}}\;}$$
 
@@ -277,7 +277,7 @@ The final months of the sample (2026-06 → 2026-09) show the most extreme dispe
 
 A sample correlation is bounded and its sampling distribution is badly skewed near ±1 — the sampling error of $\rho = 0.95$ is nothing like that of $\rho = 0.05$ — so raw correlations cannot be differenced or tested directly. Fisher's transform
 
-$$z = \operatorname{arctanh}\rho = \tfrac12\ln\!\frac{1+\rho}{1-\rho}, \qquad \operatorname{Var}(z) \approx \frac{1}{n-3}$$
+$$z = \mathrm{arctanh}\rho = \tfrac12\ln\!\frac{1+\rho}{1-\rho}, \qquad \mathrm{Var}(z) \approx \frac{1}{n-3}$$
 
 is variance-stabilising: $z$ is approximately normal with variance essentially independent of the true $\rho$. Two-sample test: $Z = (z_1 - z_2)/\sqrt{1/(n_1-3) + 1/(n_2-3)}$.
 
